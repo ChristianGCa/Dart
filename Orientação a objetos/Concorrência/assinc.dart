@@ -15,6 +15,7 @@ void main() {
   print('Antes dos métodos assíncronos');
 }
 
+//Future significa que será retornado um valor no futuro
 Future<List<String>> carregarFotos() async {
   await Future.delayed(
       Duration(seconds: 2)); //Para usar "await", deve ter "async" na função
